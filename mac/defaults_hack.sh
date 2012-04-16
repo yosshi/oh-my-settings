@@ -74,8 +74,6 @@ echo "Show indicator lights for open applications in the Dock"
 defaults write com.apple.dock show-process-indicators -bool true
 
 
-################## ここまでみた ##################
-
 # Don’t animate opening applications from the Dock
 # defaults write com.apple.dock launchanim -bool false
 
@@ -114,7 +112,7 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 echo "Display full POSIX path as Finder window title"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
-# Increase window resize speed for Cocoa applications
+echo "Increase window resize speed for Cocoa applications"
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 echo "Avoid creating .DS_Store files on network volumes"
@@ -129,8 +127,8 @@ echo "Show item info below desktop icons"
 echo "Enable snap-to-grid for desktop icons"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
-echo "Disable the warning before emptying the Trash"
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
+# "Disable the warning before emptying the Trash"
+# defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Empty Trash securely by default
 # defaults write com.apple.finder EmptyTrashSecurely -bool true
@@ -194,8 +192,8 @@ echo "Reset Launchpad"
 echo "Show the ~/Library folder"
 chflags nohidden ~/Library
 
-echo "Disable local Time Machine backups"
-hash tmutil &> /dev/null && sudo tmutil disablelocal
+# "Disable local Time Machine backups"
+# hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 # "Remove Dropbox’s green checkmark icons in Finder"
 # file=/Applications/Dropbox.app/Contents/Resources/check.icns
