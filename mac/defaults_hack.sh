@@ -18,6 +18,12 @@ defaults write com.apple.dock no-glass -bool true
 echo "Automatically hide and show the Dock"
 defaults write com.apple.dock autohide -bool true
 
+echo "Dock auto hide"
+defaults write com.apple.Dock autohide-delay -float 0
+
+echo "Dock display animation off"
+defaults write com.apple.dock autohide-time-modifier -int 0
+
 echo "Make Dock icons of hidden applications translucent"
 defaults write com.apple.dock showhidden -bool true
 
