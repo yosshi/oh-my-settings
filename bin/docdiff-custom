@@ -1,0 +1,4 @@
+#!/bin/sh
+# % gem install docdiff
+
+docdiff --ascii --lf --tty --digest $1 $2
