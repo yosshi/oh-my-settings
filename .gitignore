@@ -1,0 +1,5 @@
+# git ignore file 
+
+## vim/bundle
+vim/bundle/*
+!vim/bundle/neobundle.vim
