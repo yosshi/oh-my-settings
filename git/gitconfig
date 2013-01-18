@@ -1,0 +1,14 @@
+[color]
+	ui = auto
+[alias]
+	f  = fetch --prune
+	s  = status --short --branch
+	st = status
+	co = checkout
+	ci = commit -v
+	logstat = log --stat --summary
+[core]
+	autoCRLF = false
+	excludesfile = /Users/yoshiyuki_miyagi/.gitignore
+[include]
+	path = .gitconfig.local # user は .gitconfig.local へ
