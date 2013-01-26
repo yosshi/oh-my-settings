@@ -31,22 +31,9 @@ setopt extended_glob
 setopt extended_history
 setopt list_types
 
+PROMPT=$'%2F%n@%m%f[%t]\n%3F%~%f %6F%1v\n%f%# '
 
 
-# COLOR
-local BLACK=$'%{\e[1;30m%}'
-local RED=$'%{\e[1;31m%}'
-local GREEN=$'%{\e[1;32m%}'
-local YELLOW=$'%{\e[1;33m%}'
-local BLUE=$'%{\e[1;34m%}'
-local PERPLE=$'%{\e[1;35m%}'
-local WATER=$'%{\e[1;36m%}'
-local WHITE=$'%{\e[1;37m%}'
-local DEFAULT=$'%{\e[1;m%}'
-
-PROMPT="$GREEN%~$DEFAULT
-$GREEN%n$DEFAULT@$RED%m[$DEFAULT%t$RED] %(!.#.$) $DEFAULT$WHITE"
-#RPROMPT=$GREEN'[%~]'$DEFAULT
 
 # history
 HISTFILE=~/.histfile
