@@ -2,15 +2,15 @@
 新しいマシンを買った際、OSを再インストールした際にどこでも同じ設定をするためのリポジトリ。
 install.sh を実行することで設定ファイルをホームディレクトリにリンクを貼る。
 
- ./install.sh
+    ./install.sh
 
 # install.sh で導入される設定ファイル
 
-  ~/.gitconfig
-  ~/.gitignore
-  ~/.zshrc
-  ~/.vim
-  ~/.vimrc
+    ~/.gitconfig
+    ~/.gitignore
+    ~/.zshrc
+    ~/.vim
+    ~/.vimrc
 
 # Mac OSX の defaults コマンドによる設定
 
