@@ -27,7 +27,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'FuzzyFinder'
 NeoBundle 'git://github.com/motemen/git-vim.git'
 NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'Shougo/neocomplcache-snippets-complete'
+NeoBundle 'Shougo/neosnippet.git'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'jelera/vim-javascript-syntax'
 
