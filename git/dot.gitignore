@@ -2,6 +2,7 @@
 *.swp
 *.swo
 .rvmrc
+.DS_Store
 GPATH
 GRTAGS
 GTAGS
