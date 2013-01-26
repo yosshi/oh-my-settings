@@ -12,3 +12,5 @@
 	excludesfile = /Users/yoshiyuki_miyagi/.gitignore
 [include]
 	path = .gitconfig.local # user は .gitconfig.local へ
+[push]
+	default = simple
