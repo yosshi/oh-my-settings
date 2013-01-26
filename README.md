@@ -14,7 +14,7 @@ install.sh を実行することで設定ファイルをホームディレクト
 
 # Mac OSX の defaults コマンドによる設定
 
-  ./mac/defaults_hack.sh
+    ./mac/defaults_hack.sh
 
 # vim
 submodule として登録している外部リポジトリを設定しているので次のコマンドを実行。
