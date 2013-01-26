@@ -26,3 +26,7 @@ vim にてインストールコマンドを実行
 
     :NeoBundleInstall
 
+# geektool
+geektool ディレクトリ下の README にインストール方法が書かれている。
+
+    oh-my-settings/geektool/README.md
