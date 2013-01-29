@@ -7,4 +7,7 @@ defaults コマンドで mac の各種設定を実行するスクリプト
 
 mac 用にパッケージをインストールするためのスクリプト
 * まず homebrew を入れておく
+* http://mxcl.github.com/homebrew/
+
+    ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
