@@ -13,4 +13,4 @@
 	autoCRLF = false
 	excludesfile = ~/.gitignore
 [push]
-	default = simple
+	default = matching
