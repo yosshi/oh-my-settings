@@ -6,6 +6,7 @@
 GPATH
 GRTAGS
 GTAGS
+.idea
 gtags.sh
 restart.sh
 get-remote-branch.sh
