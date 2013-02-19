@@ -15,3 +15,4 @@ ln -s ~/.vim/dot.vimrc ~/.vimrc
 
 echo 'tmux'
 ln -s ${DIR}/tmux/dot.tmux.conf ~/.tmux.conf
+ln -s ${DIR}/tmux/bundle ~/.tmux-bundle
