@@ -5,3 +5,8 @@
     % fontforge -script ./vim-powerline/fontpatcher/fontpatcher /Library/Fonts/OsakaMono.ttf
 
 カレントディレクトリにフォントファイルが生成されるのでインストール。
+
+# tmux で困ったら
+ヘルプをみたら良い。
+
+    C-b ?
