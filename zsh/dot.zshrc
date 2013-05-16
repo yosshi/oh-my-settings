@@ -2,7 +2,7 @@ export LANG=ja_JP.UTF-8
 export SHELL=/bin/zsh
 export DISPLAY="localhost:0.0"
 export EDITOR=vim
-path=(/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/bin /opt/local/bin /usr/local/bin /bin /sbin /usr/bin /usr/sbin /usr/local/mysql/bin/ /opt/local/bin /usr/libexec/ /usr/local/php5/bin /Developer/SDKs/flex/bin /usr/local/sbin ~/bin/backup ~/bin)
+path=(/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/bin /opt/local/bin /usr/local/bin /bin /sbin /usr/bin /usr/sbin /usr/local/mysql/bin /opt/local/bin /usr/libexec /usr/local/php5/bin /Developer/SDKs/flex/bin /usr/local/sbin ~/bin/backup ~/bin)
 #/opt/local/bin /usr/X11R6/bin
 
 #JAVA_HOME
