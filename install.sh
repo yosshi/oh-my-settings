@@ -5,6 +5,7 @@ DIR=`pwd`
 echo 'git setting'
 ln -s ${DIR}/git/dot.gitconfig ~/.gitconfig
 ln -s ${DIR}/git/dot.gitignore ~/.gitignore
+ln -s ${DIR}/git/dot.gitattributes ~/.gitattributes
 
 echo 'zsh setting'
 ln -s ${DIR}/zsh/dot.zshrc ~/.zshrc

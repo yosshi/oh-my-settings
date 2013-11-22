@@ -12,5 +12,6 @@
 [core]
 	autoCRLF = false
 	excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
 [push]
 	default = matching
