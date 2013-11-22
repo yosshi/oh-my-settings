@@ -9,6 +9,10 @@
 	co = checkout
 	ci = commit -v
 	logstat = log --stat --summary
+	log-graph = log --oneline --graph --decorate
+	branches = branch -a
+	amend = commit -a --amend --reuse-message=HEAD
+	sl = log --all --branches --decorate --graph --oneline
 [core]
 	autoCRLF = false
 	excludesfile = ~/.gitignore
