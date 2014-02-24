@@ -40,7 +40,9 @@ cask install caffeine
 cask install xmind
 cask install sourcetree
 cask install battery-time-remaining
-cask install wireshark
+cask install qlmarkdown
+cask install qlstephen
+cask install qlcolorcode
 
 # cleanup 
 
