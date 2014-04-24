@@ -49,6 +49,8 @@ cask install qlmarkdown
 cask install qlstephen
 cask install qlcolorcode
 cask install sublime-text
+cask install imageoptim 
+cask install speedlimit 
 
 # cleanup 
 
