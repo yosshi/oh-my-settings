@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo -e '\033[5;30;43m  update  \033[0m'
+
+brew update
+
+echo -e '\033[5;30;43m  upgrade  \033[0m'
+
+brew upgrade
+
+echo -e '\033[5;30;43m  cleanup  \033[0m'
+
+brew cleanup
+
+echo -e '\033[5;30;43m  prune  \033[0m'
+
+brew prune
+
+echo -e '\033[5;30;43m  doctor  \033[0m'
+
+brew doctor
