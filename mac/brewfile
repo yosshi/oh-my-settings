@@ -1,5 +1,5 @@
 # How to use.
-# brew bundle /path/to/brewfile
+# $ brew bundle /path/to/brewfile
 
 # update Homebrew
 update
@@ -11,6 +11,7 @@ upgrade
 # Add Repository
 tap sanemat/font
 tap phinze/homebrew-cask
+tap peco/peco
 
 install zsh
 install zsh-completions
@@ -30,6 +31,9 @@ install emacs --japanese --cocoa
 install terminal-notifier
 install lv
 install ricty
+install peco
+install tig
+install source-highlight
 
 linkapps
 
@@ -49,10 +53,9 @@ cask install qlmarkdown
 cask install qlstephen
 cask install qlcolorcode
 cask install sublime-text
-cask install imageoptim 
-cask install speedlimit 
+cask install imageoptim
+cask install speedlimit
 
-# cleanup 
+# cleanup
 
 cleanup
-

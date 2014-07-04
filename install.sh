@@ -10,6 +10,9 @@ ln -s ${DIR}/git/dot.gitattributes ~/.gitattributes
 echo 'zsh setting'
 ln -s ${DIR}/zsh/dot.zshrc ~/.zshrc
 
+echo 'peco setting'
+ln -s ${DIR}/dotfiles/dot.peco ~/.peco
+
 echo 'vim setting'
 ln -s ${DIR}/vim ~/.vim
 ln -s ~/.vim/dot.vimrc ~/.vimrc
