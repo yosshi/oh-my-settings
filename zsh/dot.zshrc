@@ -150,6 +150,15 @@ function history-all { history -E 1 }
 # display history-ranking
 function history-ranking  { history-all |awk '{print $4}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r }
 
+# peco history search
+function peco-history-selection() {
+    BUFFER=`history -n 1 | tail -r  | awk '!a[$0]++' | peco`
+    CURSOR=$#BUFFER
+    zle reset-prompt
+}
+zle -N peco-history-selection
+bindkey '^R' peco-history-selection
+
 # Small to Big
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
