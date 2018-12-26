@@ -148,7 +148,7 @@ preexec () {
 function history-all { history -E 1 }
 
 # display history-ranking
-function history-ranking  {history-all |awk '{print $4}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r}
+function history-ranking  { history-all |awk '{print $4}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r }
 
 # Small to Big
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
