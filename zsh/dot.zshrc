@@ -5,6 +5,11 @@ export EDITOR=vim
 path=(/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/bin /opt/local/bin /usr/local/bin /bin /sbin /usr/bin /usr/sbin /usr/local/mysql/bin /opt/local/bin /usr/libexec /usr/local/php5/bin /Developer/SDKs/flex/bin /usr/local/sbin ~/bin/backup ~/bin)
 #/opt/local/bin /usr/X11R6/bin
 
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+
+
 #JAVA_HOME
 export JAVA_HOME=/Library/Java/Home
 
@@ -170,11 +175,6 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31
 zstyle ':completion:*' list-colors $LSCOLORS
 # hokan selected
 zstyle ':completion:*:default' menu select=1
-
-# rvm
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-source ~/.rvm/scripts/rvm
-rvm use 1.9.2 &> /dev/null
 
 # zsh start message
 echo Now zsh version $ZSH_VERSION start!
