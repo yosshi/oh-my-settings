@@ -26,6 +26,13 @@ vim にてインストールコマンドを実行
 
     :NeoBundleInstall
 
+# homebrew 
+
+brew bundle を使用してまとめてインストール
+
+    brew bundle homebrew/Brewfile
+
+
 # geektool
 geektool ディレクトリ下の README にインストール方法が書かれている。
 
