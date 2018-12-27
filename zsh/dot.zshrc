@@ -13,7 +13,7 @@ eval "$(anyenv init -)"
 #JAVA_HOME
 export JAVA_HOME=/Library/Java/Home
 
-#export LSCOLORS=gxfxcxdxbxegedabagacad
+export LSCOLORS=gxfxcxdxbxegedabagacad
 
 
 # setopt
@@ -85,7 +85,7 @@ alias diff="colordiff"
 
 alias hosts="less /private/etc/hosts"
 
-alias ls="ls -FGh"
+alias ls="gls -FGh --color=auto"
 zstyle ':completion:*:default' list-colors $LSCOLORS
 
 ### cd した後に ls を実行
