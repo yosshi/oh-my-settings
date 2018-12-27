@@ -65,23 +65,15 @@ bindkey '^N' history-beginning-search-forward # 先頭マッチのヒストリ�
 alias ll="ls -l"
 alias la="ls -la"
 alias rm="rm -i"
-#alias ejava="setenv LC_ALL en"
-alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias catn="cat -n"
 alias apllet="appletviewer"
-#alias java="java -Dfile.encoding=EUC_JP"
-#alias javac="javac -encoding euc-jp \!* | & nkf -e"
-#alias jglc="javac -classpath jgl.jar:."
 alias L="clear"
 alias gimp="gimp &"
 alias xdvi="xdvi \!* &"
 alias cdf="cd ../"
 alias member="less ~/member"
 alias less="less -R"
-#alias javac="javac -encoding UTF8"
-#alias java="java -Dfile.encoding=UTF8"
 alias chasen="chasen -i w "
-alias Emacs="open -a /Applications/Emacs.app/Contents/MacOS/Emacs"
 alias how="du -c -h -d 1"
 alias flashlog="tail -f ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 alias h="open ."
@@ -93,31 +85,10 @@ alias diff="colordiff"
 
 alias hosts="less /private/etc/hosts"
 
-#### dircolors
-#if [ -x `where dircolors` ] && [ -e $HOME/.dircolors ]; then
-#    eval `dircolors $HOME/.dircolors` # 色の設定
-#fi
+alias ls="ls -FGh"
+zstyle ':completion:*:default' list-colors $LSCOLORS
 
-### ls
-#if [ -x `where gnuls` ]; then
-#  alias ls="gnuls -F --color=auto --show-control-char"
-#  alias lscolor='gnuls -F --color=always --show-control-char'
-  # 補完リストをカラー化
-#  zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-  #zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} でも良さげ
-#elif [ "$ARCHI" = "linux" ]; then
-#  alias ls="ls -F --color=auto --show-control-char"
-#  alias lscolor='ls -F --color=always --show-control-char'
-  # 補完リストをカラー化
-#  eval `dircolors -b`
-#  zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-#else
-    alias ls="ls -FGh"
-    zstyle ':completion:*:default' list-colors $LSCOLORS
-#fi
-
-
-### cd した後に ls
+### cd した後に ls を実行
 function cd() { builtin cd $@ && ls; }
 
 # ps aux | grep hogehoge
