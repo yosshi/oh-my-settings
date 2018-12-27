@@ -36,6 +36,11 @@ setopt extended_glob
 setopt extended_history
 setopt list_types
 
+
+# source
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 PROMPT=$'%2F%n@%m%f[%t]\n%3F%~%f %6F%1v\n%f%# '
 
 
