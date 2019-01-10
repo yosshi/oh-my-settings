@@ -12,10 +12,6 @@ echo -e '\033[5;30;43m  cleanup  \033[0m'
 
 brew cleanup
 
-echo -e '\033[5;30;43m  prune  \033[0m'
-
-brew prune
-
 echo -e '\033[5;30;43m  doctor  \033[0m'
 
 brew doctor
