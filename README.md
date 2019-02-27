@@ -1,4 +1,5 @@
 # oh-my-settings
+
 新しいマシンを買った際、OSを再インストールした際にどこでも同じ設定をするためのリポジトリ。
 install.sh を実行することで設定ファイルをホームディレクトリにリンクを貼る。
 
@@ -42,6 +43,12 @@ brew bundle を使用してまとめてインストール
 
 ```
 $ brew bundle homebrew/Brewfile
+```
+
+Brewfile を作成するには
+
+```
+$ brew bundle dump
 ```
 
 # geektool
