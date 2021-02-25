@@ -13,9 +13,6 @@ ln -s ${DIR}/zsh/dot.zshrc ~/.zshrc
 echo 'peco setting'
 ln -s ${DIR}/dotfiles/dot.peco ~/.peco
 
-echo 'vim setting'
-ln -s ${DIR}/vim ~/.vim
-ln -s ~/.vim/dot.vimrc ~/.vimrc
 
 echo 'tmux'
 ln -s ${DIR}/tmux/dot.tmux.conf ~/.tmux.conf

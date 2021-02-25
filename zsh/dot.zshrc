@@ -9,6 +9,12 @@ path=(/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/bin /opt/l
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
+# goenv
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
+# .zshrc.local
+[ -f ~/.local.zshrc ] && source ~/.local.zshrc
 
 #JAVA_HOME
 export JAVA_HOME=/Library/Java/Home
@@ -155,3 +161,4 @@ zstyle ':completion:*:default' menu select=1
 # zsh start message
 echo Now zsh version $ZSH_VERSION start!
 date # display date
+
